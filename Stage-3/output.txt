@@ -1,0 +1,30 @@
+train
+src=[ich fuhle mich ubers ohr gehauen], target=[[['i', 'feel', 'cheated']]], predicted=[['i', 'feel', 'cheated']]
+src=[ich liebe tee], target=[[['i', 'love', 'tea']]], predicted=[['i', 'love', 'tea']]
+src=[ich bin dafur], target=[[['im', 'for', 'it']]], predicted=[['im', 'for', 'it']]
+src=[er schoss auf mich], target=[[['he', 'shot', 'at', 'me']]], predicted=[['he', 'shot', 'me']]
+src=[ich werde eines nehmen], target=[[['ill', 'take', 'one']]], predicted=[['ill', 'take', 'one']]
+src=[verlieren sie das nicht], target=[[['dont', 'lose', 'it']]], predicted=[['dont', 'lose', 'it']]
+src=[trinken sie ein bisschen tee], target=[[['drink', 'some', 'tea']]], predicted=[['drink', 'some', 'tea']]
+src=[tom hatte unrecht], target=[[['tom', 'was', 'wrong']]], predicted=[['tom', 'was', 'wrong']]
+src=[uns ist langweilig], target=[[['were', 'bored']]], predicted=[['were', 'bored']]
+src=[tom ist neu], target=[[['tom', 'is', 'new']]], predicted=[['tom', 'is', 'new']]
+BLEU-1: 0.905052
+BLEU-2: 0.875512
+BLEU-3: 0.784840
+BLEU-4: 0.458101
+test
+src=[ich glaube schon], target=[[['i', 'do', 'think', 'so']]], predicted=[['i', 'think', 'now']]
+src=[lacheln sie weiter], target=[[['keep', 'smiling']]], predicted=[['keep', 'smiling']]
+src=[es passiert], target=[[['it', 'happens']]], predicted=[['it', 'happens']]
+src=[ratet mal], target=[[['make', 'a', 'guess']]], predicted=[['try', 'to', 'guess']]
+src=[ich habe es verloren], target=[[['ive', 'lost', 'it']]], predicted=[['ive', 'lost', 'it']]
+src=[ich habe befehle], target=[[['i', 'have', 'orders']]], predicted=[['i', 'have', 'hiccups']]
+src=[probier es mal], target=[[['taste', 'it']]], predicted=[['try', 'it', 'again']]
+src=[tom ist verargert], target=[[['tom', 'is', 'upset']]], predicted=[['tom', 'is', 'angry']]
+src=[ich habe tom angelogen], target=[[['i', 'lied', 'to', 'tom']]], predicted=[['i', 'helped', 'tom']]
+src=[tun sie mir den gefallen], target=[[['humor', 'me']]], predicted=[['humor', 'me']]
+BLEU-1: 0.602903
+BLEU-2: 0.486723
+BLEU-3: 0.402009
+BLEU-4: 0.195094
